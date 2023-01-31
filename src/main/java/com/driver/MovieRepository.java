@@ -20,7 +20,7 @@ public class MovieRepository {
     public String addMovie(Movie movie){
 
         MovieList.put(movie.getName(),movie);
-        return "123success";
+        return "success";
     }
 
     public String addDirector(Director director){
